@@ -8,7 +8,7 @@ homepage: "http://www.pcre.org/"
 license: "BSD-3-Clause"
 build: [["pkg-config" "libpcre"]]
 depexts: [
-  [["debian"] ["libpcre3-dev"]]
+  [["debian"] ["libpcre3-dev" "pkg-config"]]
   [["mageia"] ["libpcre-devel"]]
   [["ubuntu"] ["libpcre3-dev"]]
   [["centos"] ["pcre-devel"]]
