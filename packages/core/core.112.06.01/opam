@@ -27,4 +27,5 @@ depends: ["camlp4"
 ocaml-version: [>= "4.00.1"]
 patches: [
   "build_with_trunk.patch"
+  "build_with_ocamlbuild_trunk.patch"
 ]
